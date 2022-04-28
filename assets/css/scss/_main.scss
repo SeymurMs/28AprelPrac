@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.btn-download{
+    border: 2px solid #212529;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn-download:hover{
+    color: #FFFFFF;
+    background: #21bf73;
+    border: 2px solid #21bf73
+}
+.nav-item-padding{
+    padding-right: 20px;
+}
+.h1-font{
+    font-weight: 800;
+    color: #3a3a47;
+    line-height: 1.2;
+    margin-top: 20px;
+    font-weight: 36px;
+}
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.margin-top-h5{
+    margin-top: 15px;
+}
+.left-content{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-content{
+    margin-top: 80px;
+    width: 590px;
+    height: 394px;
+}
+.btn-left{
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+.btn-left:hover{
+    background-color:#3498db ;
+    color: #FFF;
+}
+.btn-right{
+    color: #FFFFFF;
+    background: #21bf73;
+    border: 2px solid #21bf73
+}
+.card{
+    transition: all 0.9s;
+}
+.card:hover{
+    background-color: #3498db;
+    
+}
+#img-width{
+    margin-top: 35px;
+    width: 80px;
+    height: 80px;
+}
+.h5-width{
+    padding:12px 0;
+    font-size: 19px;
+}
+.desc{
+    font-size: 15px;
+}
